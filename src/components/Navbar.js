@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { MainLayout } from '../styles/Layouts'
 import logoDark from '../assets/logo-dark.svg'
 // import divider from '../assets/divider.svg'
-import { activeStyle } from 'react-router-dom'
+// import { activeStyle } from 'react-router-dom'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -55,7 +55,7 @@ const Nav = styled.div`
     flex-wrap: wrap;
     background: white;
     position: relative;
-    padding: 0.5rem 0;
+    padding: 0.8rem 0;
 `;
 
 const Logo = styled.a`

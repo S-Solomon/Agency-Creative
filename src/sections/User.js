@@ -2,18 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import { MainLayout, InnerLayout } from '../styles/Layouts'
 
-const Features = () => {
+const User = () => {
     return (
-        <FeaturesStyled>
+        <UserStyled>
             <MainLayout>
                 <InnerLayout>
                 </InnerLayout>
             </MainLayout>
-        </FeaturesStyled>
+        </UserStyled>
     )
 }
 
-export default Features
+export default User
 
 
-const FeaturesStyled = styled.section ``;
+const UserStyled = styled.section ``;

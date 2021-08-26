@@ -6,5 +6,5 @@ export const MainLayout = styled.div `
 `;
 
 export const InnerLayout = styled.div `
-    margin: 4rem 0.5;
+    margin: 4rem auto;
 `;
