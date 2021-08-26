@@ -40,6 +40,7 @@ img {
 
 p {
     color: var(--text-primary);
+    line-height: 1.9;
 }
 
 :root {

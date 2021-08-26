@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Unlimited from '../components/Unlimited'
 import { MainLayout, InnerLayout } from '../styles/Layouts'
 
 const Features = () => {
@@ -7,6 +8,7 @@ const Features = () => {
         <FeaturesStyled>
             <MainLayout>
                 <InnerLayout>
+                    <Unlimited />
                 </InnerLayout>
             </MainLayout>
         </FeaturesStyled>
