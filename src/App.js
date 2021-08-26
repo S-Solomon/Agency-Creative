@@ -1,11 +1,12 @@
+import React from 'react'
+import Header from './sections/Header';
 
-
-function App() {
+const App = () => {
   return (
     <>
-      <h1>react</h1>
+      <Header />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
