@@ -18,4 +18,6 @@ const Business = () => {
 export default Business
 
 
-const BusinessStyled = styled.section ``;
+const BusinessStyled = styled.section `
+    background-color: var(--background-secondary);
+`;

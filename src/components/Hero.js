@@ -13,7 +13,7 @@ const Hero = () => {
             <InnerLayout>
                 <Container>
                     <FirstGridItem>
-                        <h1>A creative way to grow your Exciting Business Model</h1>
+                        <h1>A Creative way to grow your Exciting Business Model</h1>
                         <p>Get your blood tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.</p>
                         <form>
                             <div className="formContainer">
@@ -56,6 +56,12 @@ const FirstGridItem = styled.div `
         font-size: 2.125rem;
         text-align: center;
         margin-bottom: 1.25rem;
+        @media (min-width: 1024px) {
+            font-size: 3rem;
+        }
+        @media (min-width: 1440px) {
+            font-size: 4rem;
+        }
     }
     p{
         color: var(--text-secondary);
