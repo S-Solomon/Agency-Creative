@@ -16,4 +16,10 @@ export const MainLayout = styled.div `
 
 export const InnerLayout = styled.div `
     margin: 4rem auto;
+    @media (min-width: 768px) {
+        margin: 8rem auto;
+    }
+    @media (min-width: 1024px) {
+        margin: 10rem auto;
+    }
 `;
