@@ -18,4 +18,7 @@ const Work = () => {
 export default Work
 
 
-const WorkStyled = styled.section ``;
+const WorkStyled = styled.section `
+    background-color: var(--background-secondary);
+
+`;

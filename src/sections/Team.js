@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import SupportTeam from '../components/SupportTeam'
 import { MainLayout, InnerLayout } from '../styles/Layouts'
 
 const Team = () => {
@@ -7,6 +8,7 @@ const Team = () => {
         <TeamStyled>
             <MainLayout>
                 <InnerLayout>
+                <SupportTeam />
                 </InnerLayout>
             </MainLayout>
         </TeamStyled>

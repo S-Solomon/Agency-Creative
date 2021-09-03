@@ -44,6 +44,7 @@ const MeetWorkStyled = styled.div`
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    padding: 1.5rem 0;
     h2 {
         text-align: center;
         @media (min-width: 1024px) {
