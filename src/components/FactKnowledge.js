@@ -6,7 +6,7 @@ const FactKnowledge = () => {
     return (
         <GridStyle>
             <TextBox>
-                <h2>we are committed to using fact-based knowledge to our customers</h2>
+                <h2>We are committed to using fact-based knowledge to our customers</h2>
                 <p>Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.</p>
                 <div className="explore">Explore details &gt;</div>
             </TextBox>

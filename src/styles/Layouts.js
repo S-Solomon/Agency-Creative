@@ -12,6 +12,12 @@ export const MainLayout = styled.div `
     @media (min-width: 1024px) {
         padding: 0 4rem;
     }
+    @media (min-width: 1440px) {
+        padding: 0 5rem;
+    }
+    @media (min-width: 1800px) {
+        padding: 0 15rem;
+    }
 `;
 
 export const InnerLayout = styled.div `
