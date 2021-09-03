@@ -73,7 +73,7 @@ const TextBox = styled.div `
             font-size: 2rem;
         }
         @media (min-width: 1440px) {
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
     }
     p {
