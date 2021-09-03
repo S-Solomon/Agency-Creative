@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import MeetWork from '../components/MeetWork'
 import { MainLayout, InnerLayout } from '../styles/Layouts'
 
 const Work = () => {
@@ -7,6 +8,7 @@ const Work = () => {
         <WorkStyled>
             <MainLayout>
                 <InnerLayout>
+                <MeetWork />
                 </InnerLayout>
             </MainLayout>
         </WorkStyled>
