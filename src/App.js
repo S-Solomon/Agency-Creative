@@ -6,6 +6,7 @@ import Knowledge from './sections/Knowledge'
 import User from './sections/User'
 import Work from './sections/Work'
 import Team from './sections/Team'
+import FooterSection from './sections/FooterSection';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <User />
       <Work />
       <Team />
+      <FooterSection />
     </>
   )
 }

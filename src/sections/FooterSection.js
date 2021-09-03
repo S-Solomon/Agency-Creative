@@ -1,24 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
-import MeetWork from '../components/MeetWork'
+import Footer from '../components/Footer'
 import { MainLayout, InnerLayout } from '../styles/Layouts'
 
-const Work = () => {
+const FooterSection = () => {
     return (
-        <WorkStyled>
+        <FooterStyled>
             <MainLayout>
                 <InnerLayout>
-                    <MeetWork />
+                    <Footer />
                 </InnerLayout>
             </MainLayout>
-        </WorkStyled>
+        </FooterStyled>
     )
 }
 
-export default Work
+export default FooterSection
 
-
-const WorkStyled = styled.section `
-    background-color: var(--background-secondary);
-
-`;
+const FooterStyled = styled.section``;
