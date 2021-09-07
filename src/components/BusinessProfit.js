@@ -82,6 +82,10 @@ const TextBox = styled.div `
         @media(min-width: 1440px) {
             padding: 2rem 0;
             max-width: 60%;
+            font-size: 20px;
+        }
+        @media (min-width: 1024px) {
+            font-size: 18px;
         }
     }
     img {
@@ -96,6 +100,12 @@ const TextBox = styled.div `
             font-size: 1rem;
             padding: 0.5rem 0;
             text-align: left;
+                @media (min-width: 1024px) {
+                    font-size: 18px;
+                }
+                @media (min-width: 1440px) {
+                    font-size: 20px;
+                }
             
             span {
                 img {

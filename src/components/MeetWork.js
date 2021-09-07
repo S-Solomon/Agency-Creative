@@ -4,8 +4,8 @@ import styled from 'styled-components'
 const MeetWork = () => {
     return (
         <MeetWorkStyled>
-            <h2>Let’s meet how its work</h2>
-            <p>Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format.</p>
+            <h2 className="heading">Let’s meet how its work</h2>
+            <p >Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format.</p>
             <GridStyled>
                 <div className="support">
                     <div className="digit">01</div>
@@ -45,13 +45,14 @@ const MeetWorkStyled = styled.div`
     justify-content: center;
     align-content: center;
     padding: 1.5rem 0;
+    
     h2 {
         text-align: center;
         @media (min-width: 1024px) {
-            font-size: 2rem;
+            font-size: 20px;
         }
         @media (min-width: 1440px) {
-            font-size: 2.5rem;
+            font-size: 35px;
         }
     }
     p {
@@ -64,9 +65,11 @@ const MeetWorkStyled = styled.div`
         }
         @media (min-width: 1024px) {
             padding: 2.5rem 0;
+            font-size: 18px;
         }
         @media (min-width: 1440px) {
             padding: 3rem 0;
+            font-size: 20px;
         }
         @media (min-width: 1800px) {
             padding: 4rem 0;

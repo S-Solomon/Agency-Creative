@@ -56,8 +56,14 @@ const FirstGridItem = styled.div `
         font-size: 2.125rem;
         text-align: center;
         margin-bottom: 1.25rem;
+        @media (min-width: 768px){
+
+        }
         @media (min-width: 1024px) {
             font-size: 3rem;
+            @media (min-width: 1024px){
+            text-align: left;
+        }
         }
         @media (min-width: 1440px) {
             font-size: 4rem;
@@ -69,13 +75,28 @@ const FirstGridItem = styled.div `
         margin-bottom: 1.875rem;
         line-height: 1.9;
         text-align: center;
+        @media (min-width: 1024px){
+            text-align: left;
+            font-size: 18px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 20px;
+        }       
     }
     form{
         
         .formContainer{
             display: flex;
             width: 100%;
+            justify-content: center;
             margin-bottom: 1.25rem;
+            @media (min-width: 768px){
+                justify-content: center;
+            }
+            @media (min-width: 1024px){
+                justify-content: left;
+            }
+
             input {
                 outline: none;
                 border: 1px solid var(--border-color);
@@ -113,8 +134,17 @@ const FirstGridItem = styled.div `
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media (min-width: 1024px){
+            flex-direction: row;
+        }
         .text {
             color: var(--muted);
+            @media (min-width: 1024px) {
+                padding-right: 20px;
+                padding-bottom: 0;
+                font-size: 16px;
+                display: block;
+            }
         }
         .sponsors {
             display: grid;
@@ -134,4 +164,10 @@ const FirstGridItem = styled.div `
 
 const SecondGridItem = styled.div `
     margin-top: 3rem;
+    img {
+        @media (min-width: 1024px){
+            width: 90%;
+            margin-left: 1rem;
+        }
+    }
 ` ;

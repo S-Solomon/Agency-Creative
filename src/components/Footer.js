@@ -65,6 +65,10 @@ const FooterStyled = styled.div`
     }
     @media (min-width: 1024px) {
         margin: 0 auto;
+        margin-top: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 `;
 

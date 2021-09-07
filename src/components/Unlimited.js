@@ -53,6 +53,12 @@ const UnlimitedStyled = styled.div `
             text-align: center;
             padding: 2.5rem 2rem;
         }
+        @media (min-width: 1024px) {
+            font-size: 18px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 20px;
+        }
     }
 `;
 
@@ -86,6 +92,12 @@ const ContainerStyled = styled.div `
             text-align: center;
             p {
                 padding-top: 1rem;
+                @media (min-width: 1024px) {
+                    font-size: 18px;
+                }
+                @media (min-width: 1440px) {
+                    font-size: 20px;
+                }
             }
             h3 {
                 font-family: 'DM Sans', sans-serif;
@@ -121,6 +133,12 @@ const ContainerStyled = styled.div `
             text-align: center;
             p {
                 padding-top: 1rem;
+                @media (min-width: 1024px) {
+                    font-size: 18px;
+                }
+                @media (min-width: 1440px) {
+                    font-size: 20px;
+                }
             }
             h3 {
                 font-family: 'DM Sans', sans-serif;
@@ -156,6 +174,12 @@ const ContainerStyled = styled.div `
             text-align: center;
             p {
                 padding-top: 1rem;
+                @media (min-width: 1024px) {
+                    font-size: 18px;
+                }
+                @media (min-width: 1440px) {
+                    font-size: 20px;
+                }
             }
             h3 {
                 font-family: 'DM Sans', sans-serif;

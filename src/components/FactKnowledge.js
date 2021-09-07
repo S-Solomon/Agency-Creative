@@ -67,6 +67,12 @@ const TextBox = styled.div `
             padding: 2rem 0;
             max-width: 60%;
         }
+        @media (min-width: 1024px) {
+            font-size: 18px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 20px;
+        }
     }
 
     .explore {
